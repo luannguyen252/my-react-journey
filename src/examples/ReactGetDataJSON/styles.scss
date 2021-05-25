@@ -1,0 +1,46 @@
+html {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+body {
+  background-color: #111111;
+  color: #e8e4dd;
+  padding: 1rem;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1rem;
+
+    li {
+      span {
+        color: #4c4b49;
+      }
+
+      label {
+        padding-left: 0.25rem;
+
+        &.des {
+          color: #ff004a;
+        }
+
+        &.ceo {
+          color: #00eb80;
+        }
+
+        &.plb {
+          color: #0099ff;
+        }
+      }
+    }
+  }
+}

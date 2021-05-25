@@ -1,0 +1,15 @@
+@import url("../../index.css");
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header nav button {
+  margin-right: var(--token-spacing-32);
+}
+
+header nav button:last-child {
+  margin-right: 0;
+}

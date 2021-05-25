@@ -1,0 +1,33 @@
+.button {
+  background-color: #4f46e5;
+  color: #ffffff;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  cursor: pointer;
+  -webkit-appearance: none;
+  border: none;
+
+  &:hover,
+  &:active,
+  &:focus {
+    background-color: #312e81;
+  }
+
+  &--large {
+    font-size: 1rem;
+    line-height: 1.5rem;
+    padding: 1rem 2rem;
+  }
+
+  &--medium {
+    font-size: 0.9rem;
+    line-height: 1.35rem;
+    padding: 0.5rem 1.5rem;
+  }
+
+  &--small {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    padding: 0.25rem 0.75rem;
+  }
+}

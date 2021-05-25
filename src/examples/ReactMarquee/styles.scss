@@ -1,0 +1,56 @@
+:root {
+  --tokenDark: #111111;
+  --tokenGray: #7d7d7d;
+  --tokenLight: #e8e4dd;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: var(--tokenDark);
+  color: var(--tokenGray);
+  padding: 1rem;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--tokenLight);
+}
+
+.App {
+  width: 240px;
+  white-space: nowrap;
+
+  .marquee-container {
+    .overlay {
+      &::before,
+      &::after {
+        background: none;
+      }
+    }
+  }
+}

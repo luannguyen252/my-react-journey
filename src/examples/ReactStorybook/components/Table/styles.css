@@ -1,0 +1,28 @@
+@import url("../../index.css");
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table,
+th,
+td {
+  border: 1px solid var(--token-color-dark-1);
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: var(--token-color-light-4);
+  color: var(--token-color-light-1);
+}
+
+th {
+  background-color: var(--token-color-dark-4);
+  color: var(--token-color-light-1);
+}
+
+th,
+td {
+  padding: 15px;
+}
