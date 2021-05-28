@@ -1,5 +1,25 @@
 # React
 
+## Tutorials
+
+- [React Tutorial - W3Schools](https://www.w3schools.com/react/)
+- [ReactJS Tutorial - Tutorials Point](https://www.tutorialspoint.com/reactjs/index.htm)
+- [ReactJS Tutorial - JavaTPoint](https://www.javatpoint.com/reactjs-tutorial)
+
+## Courses
+
+- [The React Bootcamp - Scrimba](https://scrimba.com/learn/react)
+- [Learn React for free - Scrimba](https://scrimba.com/learn/learnreact)
+- [Learn React Hooks In One Hour - Scrimba](https://scrimba.com/learn/reacthooks)
+- [Build Tic Tac Toe with React Hooks - Scrimba](https://scrimba.com/learn/reactgame)
+- [Build an app with React and GraphQL - Scrimba](https://scrimba.com/learn/reactgraphql)
+- [Build a movie search app in React - Scrimba](https://scrimba.com/learn/reactmovie)
+- [Building Reusable React - Scrimba](https://scrimba.com/learn/reusablereact)
+- [Build an Instagram Clone in React - Scrimba](https://scrimba.com/learn/photoapp)
+- [Learn Styled Components in React - Scrimba](https://scrimba.com/learn/styledcomponents)
+
+## Installation
+
 ```bash
 # 1. Create project
 npx create-react-app ReactApp
