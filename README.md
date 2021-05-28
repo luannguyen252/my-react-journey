@@ -1,5 +1,11 @@
 # React
 
+> React is a User Interface (UI) library. React is a tool for building UI components
+
+[React](https://reactjs.org/)
+
+> A JavaScript library for building user interfaces
+
 ## Tutorials
 
 - [React Tutorial - W3Schools](https://www.w3schools.com/react/)
