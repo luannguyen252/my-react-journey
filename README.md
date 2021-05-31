@@ -46,6 +46,17 @@
 - [intersection-observer](https://github.com/researchgate/react-intersection-observer)
 - [react-intersection-observer](https://github.com/researchgate/react-intersection-observer)
 - [react-spline](https://github.com/utkarshdubey/react-spline)
+- [react-simple-typewriter](https://github.com/awran5/react-simple-typewriter)
+
+## 3D Libaries
+
+- [Spline - Design tool for 3D web experiences](https://spline.design/)
+
+## Authentication
+
+- [Okta](https://www.okta.com/)
+
+> Okta is one trusted platform to secure every identity, from customers to your workforce with Single Sign-On, Multi-factor Authentication, Lifecycle Management, and more.
 
 ## Installation
 
