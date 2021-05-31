@@ -24,6 +24,29 @@
 - [Build an Instagram Clone in React - Scrimba](https://scrimba.com/learn/photoapp)
 - [Learn Styled Components in React - Scrimba](https://scrimba.com/learn/styledcomponents)
 
+## Examples
+
+[React.js Examples](https://reactjsexample.com/)
+
+## Libaries
+
+- [react-helmet](https://github.com/nfl/react-helmet)
+- [react-i18next](https://github.com/i18next/react-i18next)
+- [i18next](https://github.com/i18next/i18next)
+- [i18next-browser-languagedetector](https://github.com/i18next/i18next-browser-languageDetector)
+- [react-lazyload](https://github.com/twobin/react-lazyload)
+- [react-lottie](https://github.com/chenqingspring/react-lottie)
+- [react-markdown](https://github.com/remarkjs/react-markdown)
+- [react-medium-image-zoom](https://github.com/tommoor/react-medium-image-zoom)
+- [react-router-dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
+- [react-syntax-highlighter](https://github.com/react-syntax-highlighter/react-syntax-highlighter)
+- [framer-motion](https://github.com/framer/motion)
+- [formik](https://github.com/formium/formik)
+- [firebase](https://www.npmjs.com/package/firebase)
+- [intersection-observer](https://github.com/researchgate/react-intersection-observer)
+- [react-intersection-observer](https://github.com/researchgate/react-intersection-observer)
+- [react-spline](https://github.com/utkarshdubey/react-spline)
+
 ## Installation
 
 ```bash
