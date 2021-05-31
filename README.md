@@ -58,6 +58,11 @@
 
 > Okta is one trusted platform to secure every identity, from customers to your workforce with Single Sign-On, Multi-factor Authentication, Lifecycle Management, and more.
 
+## React UI Library
+
+- [Karakoy - A set of 16 Beautiful React UI Card Components](https://codekits.co/karakoy.html)
+- [Corfu - Beautiful React UI Kit](https://codekits.co/corfu.html)
+
 ## Installation
 
 ```bash
