@@ -1,0 +1,74 @@
+.AccountLogin {
+  text-align: center;
+}
+
+.AccountLogin-link {
+    background-color: transparent;
+    color: #1db954;
+    padding: 1em 2.5em;
+    position: relative;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    font-weight: 600;
+    border: 1px solid #1db954;
+    -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+  }
+  
+  .AccountLogin-link:hover {
+    text-decoration: none;
+    background-color: #1db954;
+    color: white;
+  }
+  
+  .AccountLogin-link:active {
+    box-shadow: none;
+    top: 5px;
+  }
+
+  .AccountLogin-warning-note {
+      font-weight: 100;
+  }
+
+  .AccountLogin-logo-react {
+    animation: AccountLogin-logo-react-spin infinite 20s linear;
+    height: 20vmin;
+    pointer-events: none;
+    margin-right: 20px;
+  }
+  
+  .AccountLogin-logo-spotify {
+    animation: AccountLogin-logo-spotify-spin infinite 20s linear;
+    height: 20vmin;
+    pointer-events: none;
+    margin-left: 20px;
+  }
+  
+  .AccountLogin-add-sign {
+    height: 5vmin;
+    pointer-events: none;
+  }
+  
+  @keyframes AccountLogin-logo-react-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes AccountLogin-logo-spotify-spin {
+    from {
+      transform: rotate(360deg);
+    }
+    to {
+      transform: rotate(0deg);
+    }
+  }

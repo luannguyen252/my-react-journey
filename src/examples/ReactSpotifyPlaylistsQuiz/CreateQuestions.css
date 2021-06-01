@@ -1,0 +1,46 @@
+.CreateQuestions {
+    border: 1px solid #eaeaea;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+}
+
+.CreateQuestions-score-board {
+    padding: 20px 0 40px 0;
+}
+
+.CreateQuestions-score-board span {
+    font-size: 1.2em;
+    padding: 15px 30px 15px 30px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+}
+
+.CreateQuestions-score-board span:first-child {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    margin-right: 10px;
+}
+
+.CreateQuestions-score-board span:nth-child(2) {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    margin-left: 10px;
+}
+
+.form-check-label, .form-check-input {
+    cursor: pointer;
+}
+
+.form-check-label:active {
+    color:#1db954;
+}
+
+.CreateQuestions .btn-start-over {
+    color: #212529;
+}

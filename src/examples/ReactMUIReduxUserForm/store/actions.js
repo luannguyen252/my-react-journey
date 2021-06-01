@@ -1,0 +1,2 @@
+export const SUBMIT_FORM_DATA = "SUBMIT_FORM_DATA";
+export const DELETE_FORM_DATA = "DELETE_FORM_DATA";

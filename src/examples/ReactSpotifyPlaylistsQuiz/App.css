@@ -1,0 +1,39 @@
+html, body {
+  background-color: #282c34;
+  /* min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; */
+  font-size: calc(10px + 1vmin);
+  color: #eaeaea;
+}
+
+.App-credential {
+  text-align: center;
+}
+
+.App-credential p small {
+  font-weight: 100;
+}
+
+.App-credential a {
+  color: #1db954;
+  -webkit-transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out;
+  text-align: center;
+  font-weight: 400;
+}
+
+.App-credential a:hover {
+  color: #25a752;
+}
+
+/* media queries for < 600px window sizes */
+@media only screen and (max-width: 600px) {
+  .title {
+    margin-top: 3em !important;
+    font-size: 30px;
+  }
+}
+/* media queries for < 600px window sizes end */

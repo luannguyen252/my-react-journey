@@ -1,0 +1,20 @@
+.Greeting span {
+    color: #1db954;
+    font-weight: 400;
+}
+
+.Greeting p {
+    font-weight: 200;
+}
+
+/* media queries for < 600px window sizes */
+@media only screen and (max-width: 600px) {
+    .Greeting {
+      margin-top: 2em !important;
+    }
+
+    .Greeting h2 {
+        font-size: 22px;
+    }
+  }
+  /* media queries for < 600px window sizes end */
