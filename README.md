@@ -75,6 +75,8 @@ cd ReactApp
 npm start
 # Create a new project with TypeScript (optional)
 npx create-react-app react-typescript-example --template typescript
+# Remove node_modules
+rm -rf node_modules
 ```
 
 ### Use Storybook
