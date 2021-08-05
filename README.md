@@ -10,6 +10,8 @@
 
 [Next.js](https://nextjs.org/)
 
+> Next.js gives you the best developer experience with all the features you need for production: hybrid static & server rendering, TypeScript support, smart bundling, route pre-fetching, and more. No config needed.
+
 ```bash
 $ npx create-next-app --ts
 ```
@@ -22,9 +24,9 @@ $ cd <project_name>
 $ npm i && npm run dev
 ```
 
-[Next.js Examples](https://github.com/vercel/next.js/tree/canary/examples)
-[Next.js and GraphCMS](https://github.com/vercel/next.js/tree/canary/examples/cms-graphcms)
-[Next.js and Contentful](https://github.com/vercel/next.js/tree/canary/examples/cms-contentful)
+- [Next.js Examples](https://github.com/vercel/next.js/tree/canary/examples)
+- [Next.js and GraphCMS](https://github.com/vercel/next.js/tree/canary/examples/cms-graphcms)
+- [Next.js and Contentful](https://github.com/vercel/next.js/tree/canary/examples/cms-contentful)
 
 ## Tutorials
 
