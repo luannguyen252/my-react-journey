@@ -6,6 +6,22 @@
 
 > A JavaScript library for building user interfaces
 
+## NextJS
+
+[NextJS](https://nextjs.org/)
+
+```bash
+$ npx create-next-app --ts
+```
+
+[NextJS Starter Blog](https://github.com/JoseRFelix/nextjs-starter-blog)
+
+```bash
+$ git clone https://github.com/JoseRFelix/nextjs-starter-blog.git <project_name>
+$ cd <project_name>
+$ npm i && npm run dev
+```
+
 ## Tutorials
 
 - [React Tutorial - W3Schools](https://www.w3schools.com/react/)
