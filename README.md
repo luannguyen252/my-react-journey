@@ -6,21 +6,25 @@
 
 > A JavaScript library for building user interfaces
 
-## NextJS
+## Next.js
 
-[NextJS](https://nextjs.org/)
+[Next.js](https://nextjs.org/)
 
 ```bash
 $ npx create-next-app --ts
 ```
 
-[NextJS Starter Blog](https://github.com/JoseRFelix/nextjs-starter-blog)
+[Next.js Starter Blog](https://github.com/JoseRFelix/nextjs-starter-blog)
 
 ```bash
 $ git clone https://github.com/JoseRFelix/nextjs-starter-blog.git <project_name>
 $ cd <project_name>
 $ npm i && npm run dev
 ```
+
+[Next.js Examples](https://github.com/vercel/next.js/tree/canary/examples)
+[Next.js and GraphCMS](https://github.com/vercel/next.js/tree/canary/examples/cms-graphcms)
+[Next.js and Contentful](https://github.com/vercel/next.js/tree/canary/examples/cms-contentful)
 
 ## Tutorials
 
