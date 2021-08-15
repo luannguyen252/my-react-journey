@@ -1,0 +1,2 @@
+- [Next.js Authentication](https://youtu.be/AdcktATbd-I?t=785)
+- [NextAuth.js Example](https://next-auth.js.org/getting-started/example)
