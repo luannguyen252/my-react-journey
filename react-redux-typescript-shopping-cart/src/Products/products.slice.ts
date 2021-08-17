@@ -1,7 +1,7 @@
 import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { RootState } from "../store";
 
-interface Product {
+export interface Product {
   title: string;
   price: number;
   id: string;
@@ -30,7 +30,8 @@ const productsSlide = createSlice({
   initialState,
   reducers: {
     addProduct: (state, action: PayloadAction<Product>) => {
-      return [action.payload, ...state];
+      // return [action.payload, ...state];
+      state.push(action.payload);
     },
   },
 });
