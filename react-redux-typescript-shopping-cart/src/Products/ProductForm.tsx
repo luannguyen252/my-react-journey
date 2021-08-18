@@ -1,11 +1,18 @@
 import React, { useState } from "react";
+import { useSelector } from "react-redux";
 import { useAppDispatch } from "../store.hooks";
-import { addProduct, Product } from "./products.slice";
+import {
+  addProduct,
+  addProductAsync,
+  getErrorMessage,
+  Product,
+} from "./products.slice";
 
 const ProductForm: React.FC = ({}) => {
   // const [{ title, price, id }, setProduct] = useState<Product>({
 
   const dispatch = useAppDispatch();
+  const errorMessage = useSelector(getErrorMessage);
 
   const [product, setProduct] = useState<Product>({
     id: "",
@@ -25,7 +32,8 @@ const ProductForm: React.FC = ({}) => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
 
-    dispatch(addProduct(product));
+    // dispatch(addProduct(product));
+    dispatch(addProductAsync(product));
 
     console.log({ product });
   };
@@ -35,8 +43,10 @@ const ProductForm: React.FC = ({}) => {
   return (
     <div className="products__form">
       <h2>Add Game to The Store</h2>
+      {errorMessage && <span>Error: {errorMessage}</span>}
       <form onSubmit={handleSubmit}>
         <input
+          style={{ border: errorMessage ? "1px solid red" : "1px solid black" }}
           type="text"
           placeholder="Title"
           name="title"
@@ -44,6 +54,7 @@ const ProductForm: React.FC = ({}) => {
           onChange={handleChange}
         />
         <input
+          style={{ border: errorMessage ? "1px solid red" : "1px solid black" }}
           type="number"
           placeholder="Price"
           name="price"
@@ -51,13 +62,18 @@ const ProductForm: React.FC = ({}) => {
           onChange={handleChange}
         />
         <input
+          style={{ border: errorMessage ? "1px solid red" : "1px solid black" }}
           type="text"
           placeholder="ID"
           name="id"
           value={id}
           onChange={handleChange}
         />
-        <button type="submit" onClick={() => console.log("Game is added.")}>
+        <button
+          style={{ backgroundColor: errorMessage ? "red" : "lightgrey" }}
+          type="submit"
+          onClick={() => console.log("Game is added.")}
+        >
           Add Game
         </button>
       </form>
