@@ -1,5 +1,6 @@
 import { UseCallbackExample } from "./UseCallBackExample";
-import { UseContextExample } from "./UseContextExample";
+import { UseContextExample } from "./UseContextExample/UseContextExample";
+import { UseContextExample2 } from "./UseContextExample/UseContextExample2";
 import { UseEffectExample } from "./UseEffectExample";
 import { UseMemoExample } from "./UseMemoExample";
 import { UseReducerExample } from "./UseReducerExample";
@@ -16,6 +17,7 @@ export default function App() {
         <UseMemoExample />
         <UseRefExample />
         <UseContextExample />
+        <UseContextExample2 />
         <UseReducerExample />
         <UseCallbackExample />
       </header>
