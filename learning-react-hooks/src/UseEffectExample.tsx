@@ -51,5 +51,5 @@ UseEffectExample.propTypes = {
 };
 
 UseEffectExample.defaultProps = {
-  name: "usEffect Example",
+  name: "useEffect Example",
 };

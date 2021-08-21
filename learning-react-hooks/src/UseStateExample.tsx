@@ -65,5 +65,5 @@ UseStateExample.propTypes = {
 };
 
 UseStateExample.defaultProps = {
-  name: "usState Example",
+  name: "useState Example",
 };

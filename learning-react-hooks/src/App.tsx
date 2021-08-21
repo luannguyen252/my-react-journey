@@ -1,4 +1,5 @@
 import { UseEffectExample } from "./UseEffectExample";
+import { UseMemoExample } from "./UseMemoExample";
 import { UseStateExample } from "./UseStateExample";
 
 export default function App() {
@@ -8,6 +9,7 @@ export default function App() {
         <h1>Learning React Hooks</h1>
         <UseStateExample />
         <UseEffectExample />
+        <UseMemoExample />
       </header>
     </div>
   );
