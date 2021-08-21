@@ -1,6 +1,8 @@
+import { UseCallbackExample } from "./UseCallBackExample";
 import { UseContextExample } from "./UseContextExample";
 import { UseEffectExample } from "./UseEffectExample";
 import { UseMemoExample } from "./UseMemoExample";
+import { UseReducerExample } from "./UseReducerExample";
 import { UseRefExample } from "./UseRefExample";
 import { UseStateExample } from "./UseStateExample";
 
@@ -14,6 +16,8 @@ export default function App() {
         <UseMemoExample />
         <UseRefExample />
         <UseContextExample />
+        <UseReducerExample />
+        <UseCallbackExample />
       </header>
     </div>
   );
