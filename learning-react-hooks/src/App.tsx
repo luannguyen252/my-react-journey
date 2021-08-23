@@ -11,20 +11,50 @@ import { UseStateExample } from "./UseStateExample";
 
 export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <h1>Learning React Hooks</h1>
-        <UseLocalStorageExample />
-        <UseStateExample />
-        <UseEffectExample />
-        <UseMemoExample />
-        <UseRefExample />
-        <UseContextExample />
-        <UseContextExample2 />
-        <UseReducerExample />
-        <UseReducerExample2 />
-        <UseCallbackExample />
+    <>
+      <header>
+        <div className="container">
+          <h1>Learning React Hooks</h1>
+        </div>
       </header>
-    </div>
+      <main>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-6">
+              <UseLocalStorageExample />
+            </div>
+            <div className="col-md-6">
+              <UseStateExample />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-6">
+              <UseEffectExample />
+            </div>
+            <div className="col-md-6">
+              <UseMemoExample />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-6">
+              <UseRefExample />
+            </div>
+            <div className="col-md-6">
+              <UseContextExample />
+              <UseContextExample2 />
+            </div>
+          </div>
+          <div className="row">
+            <div className="col-md-6">
+              <UseReducerExample />
+              <UseReducerExample2 />
+            </div>
+            <div className="col-md-6">
+              <UseCallbackExample />
+            </div>
+          </div>
+        </div>
+      </main>
+    </>
   );
 }

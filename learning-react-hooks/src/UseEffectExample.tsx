@@ -38,9 +38,11 @@ export const UseEffectExample: React.FC<UseEffectExampleProps> = ({ name }) => {
         <button onClick={() => setResourceType("users")}>Users</button>
         <button onClick={() => setResourceType("comments")}>Comments</button>
       </div>
-      {items.map((item, index) => (
-        <pre key={index}>{JSON.stringify(item)}</pre>
-      ))}
+      <div className="overflow-hidden">
+        {items.map((item, index) => (
+          <pre key={index}>{JSON.stringify(item)}</pre>
+        ))}
+      </div>
       <WindowSize />
     </>
   );

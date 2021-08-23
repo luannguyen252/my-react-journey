@@ -31,6 +31,13 @@ export default function UseLocalStorageExample() {
   useUpdateLogger(name);
 
   return (
-    <input type="text" value={name} onChange={(e) => setName(e.target.value)} />
+    <>
+      <h4>Custom React Hooks (useLocalStorage)</h4>
+      <input
+        type="text"
+        value={name}
+        onChange={(e) => setName(e.target.value)}
+      />
+    </>
   );
 }
